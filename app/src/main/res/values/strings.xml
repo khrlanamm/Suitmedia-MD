@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Suitmedia MD</string>
+
+    <string name="name">Name</string>
+    <string name="palindrome">Palindrome</string>
+    <string name="check">CHECK</string>
+    <string name="next">NEXT</string>
+    <string name="icon">Icon</string>
 </resources>
