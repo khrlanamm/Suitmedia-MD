@@ -14,6 +14,8 @@ android {
         versionCode = 1
         versionName = "1.0"
 
+        buildConfigField("String", "BASE_URL", "\"https://reqres.in/api/\"")
+
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
