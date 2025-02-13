@@ -13,4 +13,9 @@
     <string name="user_name">Selected User Name</string>
     <string name="choose">Choose a User</string>
     <string name="back_button">Back Button</string>
+
+    <string name="third_screen">Third Screen</string>
+    <string name="fullname">Full Name</string>
+    <string name="email">email@mail.id</string>
+    <string name="empty_user">User is Empty</string>
 </resources>
