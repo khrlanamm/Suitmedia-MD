@@ -6,4 +6,11 @@
     <string name="check">CHECK</string>
     <string name="next">NEXT</string>
     <string name="icon">Icon</string>
+
+    <string name="second_screen">Second Screen</string>
+    <string name="welcome">Welcome</string>
+    <string name="your_name">Your Name</string>
+    <string name="user_name">Selected User Name</string>
+    <string name="choose">Choose a User</string>
+    <string name="back_button">Back Button</string>
 </resources>
