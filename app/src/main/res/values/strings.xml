@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Suitmedia MD</string>
+
+    <string name="name">Name</string>
+    <string name="palindrome">Palindrome</string>
+    <string name="check">CHECK</string>
+    <string name="next">NEXT</string>
+    <string name="icon">Icon</string>
+
+    <string name="second_screen">Second Screen</string>
+    <string name="welcome">Welcome</string>
+    <string name="your_name">Your Name</string>
+    <string name="user_name">Selected User Name</string>
+    <string name="choose">Choose a User</string>
+    <string name="back_button">Back Button</string>
+
+    <string name="third_screen">Third Screen</string>
+    <string name="fullname">Full Name</string>
+    <string name="email">email@mail.id</string>
+    <string name="empty_user">User is Empty</string>
 </resources>
