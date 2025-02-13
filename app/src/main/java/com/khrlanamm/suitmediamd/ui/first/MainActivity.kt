@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
                 val name = edName.text.toString()
                 if (name.isNotEmpty()) {
                     val intent = Intent(this@MainActivity, SecondScreenActivity::class.java)
+                    intent.putExtra(SecondScreenActivity.NAME, name)
                     startActivity(intent)
                 } else {
                     showAlertDialog("", false, "Please enter your name", isError = true)
