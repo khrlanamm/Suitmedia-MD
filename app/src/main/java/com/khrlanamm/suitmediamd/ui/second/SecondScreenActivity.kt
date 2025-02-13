@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.khrlanamm.suitmediamd.R
 import com.khrlanamm.suitmediamd.databinding.ActivitySecondScreenBinding
+import com.khrlanamm.suitmediamd.helper.UserAdapter
 import com.khrlanamm.suitmediamd.ui.third.ThirdScreenActivity
 
 class SecondScreenActivity : AppCompatActivity() {
@@ -35,13 +36,13 @@ class SecondScreenActivity : AppCompatActivity() {
         }
     }
 
-//    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-//        super.onActivityResult(requestCode, resultCode, data)
-//        if (requestCode == REQUEST_CODE && resultCode == UserAdapter.RESULT_CODE) {
-//            val fullname = data?.getStringExtra(UserAdapter.FULLNAME)
-//            binding.tvUsername.text = fullname
-//        }
-//    }
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == REQUEST_CODE && resultCode == UserAdapter.RESULT_CODE) {
+            val fullname = data?.getStringExtra(UserAdapter.FULLNAME)
+            binding.tvUsername.text = fullname
+        }
+    }
 
     private fun setTransparentStatusBar() {
         window.apply {
