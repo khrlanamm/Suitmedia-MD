@@ -7,6 +7,7 @@ import android.view.View
 import android.view.WindowInsetsController
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.content.ContextCompat
 import com.khrlanamm.suitmediamd.R
 import com.khrlanamm.suitmediamd.databinding.ActivitySecondScreenBinding
@@ -18,6 +19,7 @@ class SecondScreenActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         binding = ActivitySecondScreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setTransparentStatusBar()
